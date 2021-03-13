@@ -1,0 +1,23 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+        N = int(input())
+        if (N % 2) != 0:
+            print("Weird")
+        else:            
+                if N in range(7, 21) and (N % 2)== 0:
+                        print("Weird")                
+                else: 
+                    if N in range(3, 6) and (N % 2) == 0:
+                            print("Not Weird")     
+                    else:       
+                        if N in range(21, 101) and (N % 2) == 0:
+                                        print("Not Weird")
