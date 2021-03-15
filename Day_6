@@ -1,11 +1,3 @@
-class Indexed_Characters:
-    def __init__(self, evenChar, oddChar):
-        s = input()
-        self.evenChar = evenChar
-        evenChar = ()
-        self.oddChar = oddChar
-        oddChar = ()
-        for i in range(len(s)):
-            self.evenChar = (i % 2 == 0)
-            self.oddChar = (i % 2 != 0)
-            print(f'{self.evenChar(s)}  {self.oddChar(s)}')
+for i in range(int(input())):
+    s = input()
+    print(s[::2], s[1::2])
